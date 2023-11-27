@@ -1,0 +1,103 @@
+.jogadoresContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.cartaoJogador {
+    flex: 0 0 calc(30% - 20px);
+    width: 400px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(23, 23, 23, 0.1);
+    text-align: center;
+}
+
+.cartaoJogador img {
+    width: 250px;
+    border-radius: 8px;
+}
+
+.cartaoJogador h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.cartaoJogador p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.cartaoJogador button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #3498db;
+}
+
+.cartaoJogador button:hover{
+    transition: background-color 0.3s ease;
+    background-color: #0743c6;
+}
+  
+.containerBotaoCima {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.botoesCentro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.botaoCentro, .botaoSair {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.botaoCentro {
+    background-color: #3498db;
+    margin-right: 10px;
+}
+
+.botaoSair {
+    background-color: #e74c3c;
+    margin-left: auto;
+}
+
+.botaoCentro:hover {
+    transition: background-color 0.3s ease;
+    background-color: #0743c6;
+}
+
+.botaoSair:hover {
+    transition: background-color 0.3s ease;
+    background-color: rgb(168, 38, 45);
+}
+
+.mensagemErro{
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+}
+  

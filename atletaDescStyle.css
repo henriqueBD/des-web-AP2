@@ -1,0 +1,50 @@
+.container {
+  text-align: center;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.infoContainer{
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(23, 23, 23, 0.1);
+  font-size: larger;
+  text-align: left;
+  padding: 20px;
+  margin: auto;
+  margin-top: 20px;
+  max-width: 500px;
+}
+
+.infoContainer img{
+  border-radius: 10px;
+}
+
+.botao{
+  text-align: center;
+}
+
+.botaoVoltar{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #3498db;
+  margin-right: 10px;
+}
+
+.botaoVoltar:hover {
+  transition: background-color 0.3s ease;
+  background-color: #0743c6;
+}
+
+.mensagemErro{
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+
